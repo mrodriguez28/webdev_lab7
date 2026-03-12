@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ITMD 361 Lab 7 - Planet Data Table</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="page-wrapper">
+    <header id="page-header">
+      <h1>Planet Data Comparison</h1>
+      <p class="intro">
+        This table compares four terrestrial planets in our solar system using data gathered from NASA.
+        The planets shown are Mercury, Venus, Earth, and Mars.
+      </p>
+    </header>
+
+    <main id="main-content">
+      <section id="table-section">
+        <h2>NASA Planet Facts</h2>
+        <p class="section-text">
+          The data below includes diameter, average distance from the Sun, mass relative to Earth,
+          length of year, length of day, mean temperature, number of moons, and average orbital velocity.
+        </p>
+
+        <table class="planet-table">
+          <caption>
+            Comparison of Mercury, Venus, Earth, and Mars
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Diameter (km)</th>
+              <th scope="col">Distance from Sun (million km)</th>
+              <th scope="col">Mass (Earth = 1)</th>
+              <th scope="col">Year (Earth years)</th>
+              <th scope="col">Day (Earth days)</th>
+              <th scope="col">Mean Temp (°C)</th>
+              <th scope="col">Moons</th>
+              <th scope="col">Orbital Velocity (km/s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="mercury-row">
+              <th scope="row">Mercury</th>
+              <td>4,880</td>
+              <td>58.0</td>
+              <td>0.0553</td>
+              <td>0.241</td>
+              <td>175.942</td>
+              <td>167</td>
+              <td>0</td>
+              <td>47.87</td>
+            </tr>
+            <tr id="venus-row">
+              <th scope="row">Venus</th>
+              <td>12,104</td>
+              <td>108.0</td>
+              <td>0.815</td>
+              <td>0.615</td>
+              <td>116.75</td>
+              <td>464</td>
+              <td>0</td>
+              <td>35.02</td>
+            </tr>
+            <tr id="earth-row">
+              <th scope="row">Earth</th>
+              <td>12,756</td>
+              <td>149.7</td>
+              <td>1.000</td>
+              <td>1.000</td>
+              <td>1.000</td>
+              <td>15</td>
+              <td>1</td>
+              <td>29.78</td>
+            </tr>
+            <tr id="mars-row">
+              <th scope="row">Mars</th>
+              <td>6,792</td>
+              <td>227.9</td>
+              <td>0.107</td>
+              <td>1.881</td>
+              <td>1.027</td>
+              <td>-65</td>
+              <td>2</td>
+              <td>24.13</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="notes-section">
+        <h2>Quick Notes</h2>
+        <ul class="notes-list">
+          <li>Venus is the hottest planet in this group.</li>
+          <li>Earth is the only planet here with one natural satellite and life as we know it.</li>
+          <li>Mars has a longer year than Earth but a very similar day length.</li>
+          <li>Mercury moves the fastest around the Sun.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="page-footer">
+      <p>
+        Data source: NASA planetary facts and comparison tables.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
